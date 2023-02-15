@@ -1,10 +1,10 @@
 # build-docker-php
 build-docker-php
 
-#connect mysql php
-
-create connect.php
-
+connect mysql php
+---------------------
+#### create connect.php
+---------------------
 ```bash
 <?php
 $servername = "db";
@@ -28,6 +28,7 @@ try {
 }
 ?>
 ```
-#phpmyadmin
+#### phpmyadmin
 username : root
+
 password : app
