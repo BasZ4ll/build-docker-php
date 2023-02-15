@@ -1,8 +1,9 @@
 # build-docker-php
 build-docker-php
 
-connect mysql php
-connect.php
+#connect mysql php
+
+create connect.php
 
 <?php
  
@@ -27,6 +28,6 @@ try {
 }
 ?>
 
-phpmyadmin
+#phpmyadmin
 username : root
 password : app
