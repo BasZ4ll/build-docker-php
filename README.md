@@ -5,8 +5,8 @@ build-docker-php
 
 create connect.php
 
+```bash
 <?php
- 
 $servername = "db";
 $username = "root";
 $password = "app";
@@ -27,7 +27,7 @@ try {
         . $e->getMessage();
 }
 ?>
-
+```
 #phpmyadmin
 username : root
 password : app
